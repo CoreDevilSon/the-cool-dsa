@@ -46,7 +46,7 @@ public class Main {
         //System.out.println("\n"+c+" Nodes");
         return c;
     }
-    //Insert Node Function
+    //Insert Node Function with Invalid Position Check
     public void insertNode(int pos, int data) {
         Node n = new Node(data);
         if(head == null) {
