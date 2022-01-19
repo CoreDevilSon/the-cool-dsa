@@ -26,6 +26,7 @@ public class Main {
         obj.insertNode(6,40);
         obj.print();
     }
+    //Printing the Linked List
     public void print() {
         Node temp = head;
         while(temp != null) {
@@ -34,6 +35,7 @@ public class Main {
         }
         System.out.println();
     }
+    //Counting the total Nodes in Linked list used in insertNode() Function
     public int countNodes() {
         int c = 0;
         Node temp = head;
@@ -44,6 +46,7 @@ public class Main {
         //System.out.println("\n"+c+" Nodes");
         return c;
     }
+    //Insert Node Function
     public void insertNode(int pos, int data) {
         Node n = new Node(data);
         if(head == null) {
